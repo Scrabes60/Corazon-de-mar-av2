@@ -10,7 +10,7 @@
 
 const IMAGES = {
   // Logo de la florería (reemplaza con tu logo real)
-  logo: 'https://images.unsplash.com/photo-1519378058457-4c29a0a2efac?auto=format&fit=crop&w=200&q=80',
+  logo: 'https://res.cloudinary.com/dlab5qyc7/image/upload/f_auto,q_auto/1000214368_dx06bq
 
   // Imagen del hero (fondo principal)
   hero: 'https://images.unsplash.com/photo-1468327768560-75b778cbb551?auto=format&fit=crop&w=1800&q=80',
