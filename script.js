@@ -9,7 +9,7 @@
 // Puedes usar URLs de Unsplash, tu propio hosting, o subir imágenes a Imgur, Cloudinary, etc.
 
 const IMAGES = {
-  // Logo de la florería (reemplaza con tu logo real)
+  // Logo de la florería - URL de Cloudinary
   logo: 'https://res.cloudinary.com/dlab5qyc7/image/upload/f_auto,q_auto/1000214368_dx06bq',
 
   // Imagen del hero (fondo principal)
