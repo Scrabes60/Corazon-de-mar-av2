@@ -16,7 +16,7 @@ const IMAGES = {
   hero: 'https://res.cloudinary.com/dlab5qyc7/image/upload/v1780703895/ChatGPT_Image_5_jun_2026_17_56_21_mtt47b.png',
 
   // Imagen editorial (sección "Nuestra mirada")
-  editorial: 'https://images.unsplash.com/photo-1518895949257-7621c3c786d7?auto=format&fit=crop&w=1100&q=80',
+  editorial: 'https://res.cloudinary.com/dlab5qyc7/image/upload/v1780706564/93d8733b-422f-4776-be15-4c65d6bd61bc_hrrwkn.png',
 
   // Productos / Arreglos destacados
   products: [
