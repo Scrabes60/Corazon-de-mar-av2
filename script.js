@@ -21,46 +21,43 @@ const IMAGES = {
   // Productos / Arreglos destacados
   products: [
     {
-      name: 'Aurora',
+      name: 'Canasta Floral Sueños de Ballet',
       desc: 'Una composición luminosa con gesto suave y acabado limpio.',
-      price: '$850',
-      image: 'https://images.unsplash.com/photo-1525310072745-f49212b5ac6d?auto=format&fit=crop&w=900&q=80',
-      waText: 'Hola, me interesa el arreglo Aurora'
+      price: 'Pregunta por el descuento',
+      image: 'https://res.cloudinary.com/dlab5qyc7/image/upload/v1780712181/052f5ccc-8839-450f-b043-1000959c0ee1_o1p7wz.jpg',
+      waText: 'Hola, me interesa el arreglo floral'
     },
     {
-      name: 'Matilde',
-      desc: 'Volumen equilibrado y textura envolvente para celebrar con calidez.',
-      price: '$1,100',
-      image: 'https://images.unsplash.com/photo-1563241527-3004b7be0ffd?auto=format&fit=crop&w=900&q=80',
-      waText: 'Hola, me interesa el arreglo Matilde'
+      name: 'Ramo Rosas Rosadas Premium',
+      desc: 'Elegante ramo de rosas rosadas acompañado de delicados detalles de nube (gypsophila), envuelto en papel coreano en tonos rosa y lila.',
+      price: 'Pregunta por el descuento',
+      image: 'https://res.cloudinary.com/dlab5qyc7/image/upload/v1780712381/5c245524-5940-4f82-b6fb-21f4227709aa_ykeulj.jpg',
+      waText: 'Hola, me interesa el arreglo floral'
     },
     {
-      name: 'Clara',
-      desc: 'Un arreglo sobrio y delicado para mensajes que piden sencillez.',
-      price: '$720',
-      image: 'https://images.unsplash.com/photo-1561181286-d3fee7d55364?auto=format&fit=crop&w=900&q=80',
-      waText: 'Hola, me interesa el arreglo Clara'
+      name: 'Ramo Eterno Amor',
+      desc: 'Impresionante bouquet de rosas rojas premium, cuidadosamente seleccionado para expresar amor, pasión y admiración.',
+      price: 'Pregunta por el descuento',
+      image: 'https://res.cloudinary.com/dlab5qyc7/image/upload/v1780712381/cfeef3e3-5c79-492e-84d2-428587415dc7_kmnzyt.jpg',
+      waText: 'Hola, me interesa el arreglo floral'
     },
     {
-      name: 'Inés',
-      desc: 'Pieza protagonista con caída natural y una lectura más expresiva.',
-      price: '$1,350',
+      name: 'Dulce Armonía',
+      desc: 'Un bouquet floral en tonos pastel que transmite serenidad, ternura y belleza natural..',
+      price: 'Pregunta por el descuento',
       image: 'https://res.cloudinary.com/dlab5qyc7/image/upload/v1780706793/5e04ec81-e93e-4fa2-9ba7-0a94659637ca_lmbcha.jpg',
-      waText: 'Hola, me interesa el arreglo Inés'
+      waText: 'Hola, me interesa el arreglo floral'
     }
   ],
 
   // Galería de imágenes (se pueden agregar más fácilmente)
   gallery: [
-    { src: 'https://images.unsplash.com/photo-1487530811176-3780de880c2d?auto=format&fit=crop&w=800&q=80', title: 'Ramo Primavera' },
-    { src: 'https://images.unsplash.com/photo-1508610048659-a06b669e3321?auto=format&fit=crop&w=800&q=80', title: 'Centro de Mesa' },
-    { src: 'https://images.unsplash.com/photo-1526047932273-341f2a7631f9?auto=format&fit=crop&w=800&q=80', title: 'Rosas Elegantes' },
-    { src: 'https://images.unsplash.com/photo-1562690868-60bbe7293e94?auto=format&fit=crop&w=800&q=80', title: 'Lirios Blancos' },
-    { src: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80', title: 'Arreglo Romántico' },
-    { src: 'https://images.unsplash.com/photo-1462275646964-a0e3f2f7815d?auto=format&fit=crop&w=800&q=80', title: 'Flores Silvestres' },
-    { src: 'https://images.unsplash.com/photo-1490750967868-88aa3f44c946?auto=format&fit=crop&w=800&q=80', title: 'Jardín en Casa' },
-    { src: 'https://images.unsplash.com/photo-1520763185298-1b434c919102?auto=format&fit=crop&w=800&q=80', title: 'Tulipanes' },
-    { src: 'https://images.unsplash.com/photo-1507290439931-a861b5a38200?auto=format&fit=crop&w=800&q=80', title: 'Peonías' }
+    { src: 'https://res.cloudinary.com/dlab5qyc7/image/upload/v1780712476/copy_of_87f7f0b3-d254-4dfb-97e0-ceb0fd5da874_a6xnut.jpg', title: 'Aurora Rosada' },
+    { src: 'https://res.cloudinary.com/dlab5qyc7/image/upload/v1780712380/4290cb1d-f266-4ecd-82f6-be52cb757f30_lkprne.jpg', title: 'Elegancia Urbana' },
+    { src: 'https://res.cloudinary.com/dlab5qyc7/image/upload/v1780714274/7dbd7ea1-3ce2-4c87-9bc8-265e01232968_tb6i7m.jpg', title: 'Rayitos de Sol' },
+    { src: 'https://res.cloudinary.com/dlab5qyc7/image/upload/v1780714275/1a35972e-726d-45e7-8325-16174eebf0a2_lytvos.jpg', title: 'Conejito de Amor' },
+    { src: 'https://res.cloudinary.com/dlab5qyc7/image/upload/v1780714788/4224e324-346c-4320-8a1d-41a777b53748_cofknr.jpg', title: 'Destello Dorado' },
+    { src: 'https://res.cloudinary.com/dlab5qyc7/image/upload/v1780714911/WhatsApp_Image_2026-06-03_at_7.01.06_PM_xza4xr.jpg', title: 'Felicidades mamá' }
   ]
 };
 
