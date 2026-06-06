@@ -45,7 +45,7 @@ const IMAGES = {
       name: 'Inés',
       desc: 'Pieza protagonista con caída natural y una lectura más expresiva.',
       price: '$1,350',
-      image: 'https://res.cloudinary.com/dlab5qyc7/image/upload/v1780706564/93d8733b-422f-4776-be15-4c65d6bd61bc_hrrwkn.png',
+      image: 'https://res.cloudinary.com/dlab5qyc7/image/upload/v1780706793/5e04ec81-e93e-4fa2-9ba7-0a94659637ca_lmbcha.jpg',
       waText: 'Hola, me interesa el arreglo Inés'
     }
   ],
