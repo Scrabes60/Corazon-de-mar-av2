@@ -135,7 +135,6 @@ function renderGallery() {
     </div>
   `).join('');
 
-  // Actualizar botón
   if (btn) {
     if (galleryVisibleCount >= IMAGES.gallery.length) {
       btn.style.display = 'none';
@@ -144,7 +143,6 @@ function renderGallery() {
     }
   }
 
-  // Re-observar elementos nuevos
   observeNewElements(grid.querySelectorAll('.reveal'));
   attachGalleryClicks();
 }
@@ -203,7 +201,6 @@ function attachGalleryClicks() {
   document.querySelector('.lightbox-prev')?.addEventListener('click', (e) => { e.stopPropagation(); prevImage(); });
   lightbox?.addEventListener('click', (e) => { if (e.target === lightbox) closeLightbox(); });
 
-  // Teclado
   document.addEventListener('keydown', (e) => {
     if (!lightbox.classList.contains('active')) return;
     if (e.key === 'Escape') closeLightbox();
@@ -318,10 +315,12 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 // INICIALIZACIÓN
 // ============================================
 document.addEventListener('DOMContentLoaded', () => {
+  // Actualizar enlaces de WhatsApp PRIMERO (antes que smooth scroll)
+  updateStaticWaLinks();
+
   // Renderizar contenido dinámico
   renderProducts();
   renderGallery();
-  updateStaticWaLinks();
 
   // Configurar botón "Ver más"
   document.getElementById('load-more-gallery')?.addEventListener('click', loadMoreGallery);
