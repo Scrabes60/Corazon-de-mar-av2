@@ -74,6 +74,20 @@ function getWaLink(text) {
 }
 
 // ============================================
+// ACTUALIZAR ENLACES DE WHATSAPP ESTÁTICOS
+// ============================================
+function updateStaticWaLinks() {
+  document.querySelectorAll('.wa-link').forEach(link => {
+    const text = link.dataset.waText;
+    if (text) {
+      link.href = getWaLink(text);
+      link.target = '_blank';
+      link.rel = 'noopener noreferrer';
+    }
+  });
+}
+
+// ============================================
 // RENDERIZAR PRODUCTOS
 // ============================================
 function renderProducts() {
@@ -307,6 +321,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // Renderizar contenido dinámico
   renderProducts();
   renderGallery();
+  updateStaticWaLinks();
 
   // Configurar botón "Ver más"
   document.getElementById('load-more-gallery')?.addEventListener('click', loadMoreGallery);
