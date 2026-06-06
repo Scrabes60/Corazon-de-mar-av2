@@ -67,7 +67,7 @@ const IMAGES = {
 // ============================================
 // NÚMERO DE WHATSAPP - Cambia aquí tu número
 // ============================================
-const WHATSAPP_NUMBER = '5548838651';
+const WHATSAPP_NUMBER = '525548838651';
 
 function getWaLink(text) {
   return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`;
